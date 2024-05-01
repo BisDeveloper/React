@@ -1,0 +1,48 @@
+.tw-card-container{
+    display: flex;
+    align-items: center;
+    color: #fff;
+    font-size: .8rem;
+     justify-content: space-between;
+    
+   
+}
+.tw-card-header{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+.tw-card-informacion{
+    display: flex;
+    flex-direction: column;
+}
+.tw-card-imagen{
+    width: 40px;
+    height: 40px;
+    border: 0;
+    border-radius: 100%;
+}
+
+.tw-aside{
+    margin-left: 20px;
+}
+.tw-buttom{
+    padding: 5px;
+    border: 0;
+    border-radius: 999px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: .3 ease background-color;
+}
+.tw-buttom.is-Following{
+    border: 1px solid red;
+}
+
+.tw-buttom:hover{
+    background-color: rgb(34, 130, 168);
+    
+}
+
+.tw-buttom.is-Following:hover{
+  background-color: red;
+}
